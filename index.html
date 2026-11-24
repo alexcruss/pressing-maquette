@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Maquette pressing</title>
+<meta name="description" content="Maquette d'une application de pressing connectée à WhatsApp : dépôts, suivi, messages automatiques.">
+<meta name="theme-color" content="#0f6b5c">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell" id="shell" data-tab="today">
+  <main class="mgr">
+    <header class="top" id="top"></header>
+    <nav class="tabs" id="tabs" aria-label="Navigation"></nav>
+    <div class="view" id="view"></div>
+  </main>
+  <aside class="sim" id="sim" aria-label="WhatsApp du client (simulé)"></aside>
+</div>
+<dialog id="dlg"></dialog>
+<script src="app.js"></script>
+</body>
+</html>
